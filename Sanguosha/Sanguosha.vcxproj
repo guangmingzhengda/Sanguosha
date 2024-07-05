@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\GameObject.cpp" />
+    <ClCompile Include="src\game\Jibencaozuo.cpp" />
+    <ClCompile Include="src\game\Paidui.cpp" />
+    <ClCompile Include="src\Globals.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Message.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\ui\Application.cpp" />
+    <ClCompile Include="src\ui\Button.cpp" />
+    <ClCompile Include="src\ui\GameInterface.cpp" />
+    <ClCompile Include="src\ui\IllustrationInterface.cpp" />
+    <ClCompile Include="src\ui\Kapai.cpp" />
+    <ClCompile Include="src\ui\Kapai\Baguazhen.cpp" />
+    <ClCompile Include="src\ui\Kapai\Bingliangcunduan.cpp" />
+    <ClCompile Include="src\ui\Kapai\Guanshifu.cpp" />
+    <ClCompile Include="src\ui\Kapai\Guohechaiqiao.cpp" />
+    <ClCompile Include="src\ui\Kapai\Hanbingjian.cpp" />
+    <ClCompile Include="src\ui\Kapai\Juedou.cpp" />
+    <ClCompile Include="src\ui\Kapai\Lebusishu.cpp" />
+    <ClCompile Include="src\ui\Kapai\Nanmanruqin.cpp" />
+    <ClCompile Include="src\ui\Kapai\Qinggangjian.cpp" />
+    <ClCompile Include="src\ui\Kapai\Renwangdun.cpp" />
+    <ClCompile Include="src\ui\Kapai\Sha.cpp" />
+    <ClCompile Include="src\ui\Kapai\Shan.cpp" />
+    <ClCompile Include="src\ui\Kapai\Shuiyanqijun.cpp" />
+    <ClCompile Include="src\ui\Kapai\Shunshouqianyang.cpp" />
+    <ClCompile Include="src\ui\Kapai\Tao.cpp" />
+    <ClCompile Include="src\ui\Kapai\Wanjianqifa.cpp" />
+    <ClCompile Include="src\ui\Kapai\Wuxiekeji.cpp" />
+    <ClCompile Include="src\ui\Kapai\Wuzhongshengyou.cpp" />
+    <ClCompile Include="src\ui\Kapai\Zhangbashemao.cpp" />
+    <ClCompile Include="src\ui\Kapai\Zhugeliannu.cpp" />
+    <ClCompile Include="src\ui\MainInterface.cpp" />
+    <ClCompile Include="src\ui\RulesInterface.cpp" />
+    <ClCompile Include="src\ui\WujaingInterface.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Caocao.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Diaochan.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Ganning.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Guanyu.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Guojia.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Huanggai.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Huangyueying.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Liubei.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Luxun.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Lvbu.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Lvmeng.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Machao.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Simayi.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Sunquan.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Sunshangxiang.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Xiahoudun.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Xuchu.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Zhangfei.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Zhangliao.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Zhaoyun.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Zhenji.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Daqiao.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Zhouyu.cpp" />
+    <ClCompile Include="src\ui\Wujiang\Zhugeliang.cpp" />
+    <ClCompile Include="src\utils\image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\Defines.h" />
+    <ClInclude Include="inc\game\GameObject.h" />
+    <ClInclude Include="inc\game\Paidui.h" />
+    <ClInclude Include="inc\game\Wanjia.h" />
+    <ClInclude Include="inc\Globals.h" />
+    <ClInclude Include="inc\Message.h" />
+    <ClInclude Include="inc\Sound.h" />
+    <ClInclude Include="inc\ui\Application.h" />
+    <ClInclude Include="inc\ui\Button.h" />
+    <ClInclude Include="inc\ui\Interface.h" />
+    <ClInclude Include="inc\utils\image.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\fmod.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\fmod_vc.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sanguosha.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sanguosha.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e503e43f-ae42-412d-a83a-aa671990dbe9}</ProjectGuid>
+    <RootNamespace>Sanguosha</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)dist\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)int\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /e /y "$(ProjectDir)res" "$(SolutionDir)dist\$(Configuration)\res\"
+xcopy /y "$(ProjectDir)lib\fmod.dll" "$(SolutionDir)dist\$(Configuration)\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
